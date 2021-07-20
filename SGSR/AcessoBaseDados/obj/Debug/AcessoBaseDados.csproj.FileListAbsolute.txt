@@ -1,0 +1,14 @@
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\AcessoBaseDados.dll
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\AcessoBaseDados.pdb
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\ObjectosModelos.dll
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\ObjectosModelos.pdb
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.csprojResolveAssemblyReference.cache
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.dll
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.pdb
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\AcessoBaseDados.dll
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\AcessoBaseDados.pdb
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\ObjectosModelos.dll
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\bin\Debug\ObjectosModelos.pdb
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.csprojResolveAssemblyReference.cache
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.dll
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\AcessoBaseDados\obj\Debug\AcessoBaseDados.pdb

@@ -1,0 +1,10 @@
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\bin\Debug\ObjectosModelos.dll
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\bin\Debug\ObjectosModelos.pdb
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.dll
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.pdb
+C:\Users\Lucas Rafael\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.csprojResolveAssemblyReference.cache
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\bin\Debug\ObjectosModelos.dll
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\bin\Debug\ObjectosModelos.pdb
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.csprojResolveAssemblyReference.cache
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.dll
+C:\Users\Nessy\Documents\Visual Studio 2012\Projects\SGSR\ObjectosModelos\obj\Debug\ObjectosModelos.pdb

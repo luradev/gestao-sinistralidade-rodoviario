@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0C54E8D-1F2B-4AA8-9CC6-6E622A49CB2E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Apresentacao</RootNamespace>
+    <AssemblyName>Apresentacao</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server Compact Edition\v4.0\Desktop\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmCadastrarAcidente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarAcidente.Designer.cs">
+      <DependentUpon>FrmCadastrarAcidente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarCondutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarCondutor.Designer.cs">
+      <DependentUpon>FrmCadastrarCondutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarMolde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarMolde.Designer.cs">
+      <DependentUpon>FrmCadastrarMolde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarUsuario.Designer.cs">
+      <DependentUpon>FrmCadastrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarVeiculo.Designer.cs">
+      <DependentUpon>FrmCadastrarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarVia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarVia.Designer.cs">
+      <DependentUpon>FrmCadastrarVia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCarregamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarregamento.Designer.cs">
+      <DependentUpon>FrmCarregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDashboard.Designer.cs">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOperacoesCondutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperacoesCondutor.Designer.cs">
+      <DependentUpon>FrmOperacoesCondutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOperacoesVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperacoesVeiculo.Designer.cs">
+      <DependentUpon>FrmOperacoesVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPesquisarAcidente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPesquisarAcidente.Designer.cs">
+      <DependentUpon>FrmPesquisarAcidente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPopupVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPopupVisualizar.Designer.cs">
+      <DependentUpon>FrmPopupVisualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
+    <EmbeddedResource Include="FrmCadastrarAcidente.resx">
+      <DependentUpon>FrmCadastrarAcidente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarCondutor.resx">
+      <DependentUpon>FrmCadastrarCondutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarMolde.resx">
+      <DependentUpon>FrmCadastrarMolde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarUsuario.resx">
+      <DependentUpon>FrmCadastrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarVeiculo.resx">
+      <DependentUpon>FrmCadastrarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarVia.resx">
+      <DependentUpon>FrmCadastrarVia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCarregamento.resx">
+      <DependentUpon>FrmCarregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDashboard.resx">
+      <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperacoesCondutor.resx">
+      <DependentUpon>FrmOperacoesCondutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperacoesVeiculo.resx">
+      <DependentUpon>FrmOperacoesVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPesquisarAcidente.resx">
+      <DependentUpon>FrmPesquisarAcidente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPopupVisualizar.resx">
+      <DependentUpon>FrmPopupVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcessoBaseDados\AcessoBaseDados.csproj">
+      <Project>{70c3f2a6-2658-498a-acea-f1a325f2578d}</Project>
+      <Name>AcessoBaseDados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjectosModelos\ObjectosModelos.csproj">
+      <Project>{4ab111fc-6650-426c-8f16-21c91b1bd29d}</Project>
+      <Name>ObjectosModelos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
